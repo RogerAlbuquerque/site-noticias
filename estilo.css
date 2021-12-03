@@ -1,0 +1,320 @@
+*{
+	padding : 0px;
+	margin  : 0px;
+}
+
+body{
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+background: url(imagens/fundo.png) repeat-x;
+}
+
+#conteiner{
+	width: 750px;
+	margin: 0 auto;
+}
+/*------------------------------- CONFIGURAÇÃO DA LOGO DO TOPO ----------------------------------------------*/
+#topo{
+background: url(imagens/detalhe-topo.png) no-repeat right top;
+height: 150px;
+padding-top: 25px;
+}
+h1.logotop {
+background: url(imagens/logo.png) no-repeat;
+width: 152px;
+height: 66px;
+text-indent: -3000px;
+
+}
+/*----------------------------------- CONFIGURAÇÃO DA LOGO DO TOPO -------------------------------------------*/
+/*----------------------------------- CONFIGURAÇÃO DO MENU DO TOP --------------------------------------------*/
+#home{
+padding: 0px;
+margin-top: 30px;
+list-style: none;
+}
+
+#home ul, li{
+	float: left;
+}
+#home a{
+	padding: 0.5em 1.5em;
+	line-height: 1.8em;
+	text-decoration: none;	
+	color: white;
+	display: block;
+	background: #b10333 url(imagens/divisor.png) no-repeat center right;
+}
+
+#home li a{
+font-size: 0.9em;
+}
+
+#home a:hover{
+color: #69001d;;
+}
+
+body.principal #home a#index,
+body.brasil #home a#brasil,
+body.fotos #home a#fotos{
+background: #de003e;
+}
+
+/*---------------------------------- CONFIGURAÇÃO DO MENU DO TOP FIM  -----------------------------------------*/
+/*------------------------------- CONFIGURAÇÃO DA ÁREA DE CONTEÚDO CENTRAL ------------------------------------*/
+h2{
+background: #294d71;
+color: white;
+font-size: 16px;
+padding: 6px;
+}
+
+h3{
+background: #b10333;
+color: black;
+font-size: 14px;
+padding: 2px;
+display: inline;
+
+}
+
+span{
+font-size: 14px;
+text-indent: right;
+margin-top: 5px;
+margin-right: 10px;
+color: #7b97c2;
+}
+/*--------------------------------------------- CENTRAL ESQUERDA -------------------------------------------------------*/
+#centro{
+	width: 565px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	float: right;
+
+}
+
+
+/*--------------------------------------------- CENTRAL ESQUERDA PAGINA BRASIL pequena edição-------------------------------------------------------*/
+.brasil #conteudo-centro{
+
+width: 565px;
+
+
+}
+
+.brasil #taxi{
+	width: 535px;
+	border: 3px solid #E0E0E0;
+}
+
+
+.brasil .novas-tecnologias{
+
+height: 75px;
+width: 535px;
+}
+
+/*---------------------------------------------------------- PEQUENA EDIÇÃO DA PAGINA DE FOTOS ---------------------------------------------------*/
+.fotos #conteudo-centro{
+margin-top: 70px;
+}
+
+.fotos #conteudo-centro{
+width: 97.5%;
+}
+
+.fotos #taxi{
+	width: 97.5%;
+	border: 3px solid #E0E0E0;
+}
+
+.fotos .novas-tecnologias{
+height: 97.5%;
+width: 97.5%;
+}
+/*---------------------------------------------------------- PEQUENA EDIÇÃO DA PAGINA DE FOTOS FIM ---------------------------------------------------*/
+#conteudo-centro{
+float: left;
+width: 275px;
+}
+
+
+#destaque{
+padding: 0.4em;
+margin-right: 2px;
+background: url(imagens/fundo-caixa.png);
+}
+
+
+#nova-legislação{
+background: white;
+padding: 6px;
+margin-top: 6px;
+}
+
+#nova-legislação a, #felipe-silva a{
+	color: #b10333;
+}
+
+
+#taxi{
+	width: 240px;
+	border: 3px solid #E0E0E0;
+}
+
+/*========================================== AQUI COMEÇA A PARTE DE BAIXO DO CENTRO  ESQUERDO e a parte baixo direita tbm ==========*/
+#mundo{
+	padding: 0.3em;
+	background: url(imagens/fundo-caixa.png);
+
+	margin-top: 8px;	
+}
+
+#centro-dir{
+	padding: 0em 0.3em 0.3em 0.3em;
+	background: url(imagens/fundo-caixa.png);
+	float: left;
+}
+
+
+
+.novas-tecnologias{
+background: white;
+border-bottom: 1px solid #C0C0C0;
+padding: 2px 8px;
+height: 75px;
+display: block;
+float: right;
+}
+
+#img-tecnologias{
+width: 90px;
+margin-top: 4px;
+margin-right: 2px;
+margin-left: 10px;
+float: left;
+}
+
+.novas-tecnologias p{
+font-size: 12px;
+display: block;
+height: 75px;
+color: black;
+}
+
+.novas-tecnologias a{
+display: block;
+text-decoration: none;
+}
+
+.novas-tecnologias a:hover{
+	background: #ECEBF5;	
+}
+/*--------------------------------------------- CENTRAL ESQUERDA FIM --------------------------------------------------*/
+/*----------------------------------------------- CENTRAL DIREITA  ----------------------------------------------------*/
+
+#conteudo-direita{
+float: right;
+width: 270px;
+margin-left: 2px;
+}
+
+#ultimas-entrevistas{
+padding: 0.3em;
+background: url(imagens/fundo-caixa.png);
+}
+
+#felipe-silva{
+background: white;
+margin: 1px;
+margin-top: 5px;
+}
+
+#noticias-recentes{
+	padding: 0.3em;
+	background: url(imagens/fundo-caixa.png);
+	margin-top: 8px;
+}
+/*--------------------------------------------- CENTRAL DIREITA  FIM ------------------------------------------*/
+/*------------------------------- CONFIGURAÇÃO DA ÁREA DE CONTEÚDO CENTRAL FIM --------------------------------*/
+
+/*------------------------------- CONFIGURAÇÃO DA ÁREA DE CONTEÚDO LATERAL ESQUERDA ------------------------------*/
+
+
+#esquerda{
+margin-top: 70px;
+width: 165px;
+float: left;
+}
+
+#entrevistas{
+padding: 0.3em;
+background: url(imagens/fundo-caixa.png);
+}
+
+#links{
+background: white;
+padding: 4px;
+margin: 4px 0px;
+margin-bottom: 0px;
+}
+
+#entrevistas a{
+text-decoration: none;
+display: block;
+color: black;
+background: white;
+border-bottom: 1px solid #EEEEEE;
+font-size: 15px;
+padding: 10px 8px;
+}
+
+#entrevistas a:hover{
+	background: #ECEBF5 url(imagens/marcador.png) no-repeat left center;
+	text-align: center;
+}
+
+#news{	
+	padding: 0.3em;
+	background: url(imagens/fundo-caixa.png);
+	margin-top: 9px;	
+}
+
+#news h2{
+margin-bottom:6px ;
+}
+
+form{
+	background: white;
+	padding: 10px 4px;
+}
+
+input[type="email"]{
+width: 120px;
+padding: 4px;
+border: 2px solid #474748;
+border-bottom: 2px solid #737375;
+border-right:  2px solid #737375;
+}
+
+input[type="submit"]{
+	background: #b10333;
+	color: white;
+	border: 2px solid #6D0220;
+	padding: 6px;
+	font-size: 14px;
+}
+/*------------------------------- CONFIGURAÇÃO DA ÁREA DE CONTEÚDO LATERAL FIM ------------------------------------*/
+#rodape{
+	clear: both;
+	background: #294d71;
+	color: white;
+	height: 60px;
+	width: 100%;
+	text-align: center;	
+}
+
+#final{
+	margin-right: 480px;
+	padding-top: 20px;
+}
